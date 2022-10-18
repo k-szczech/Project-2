@@ -1,0 +1,76 @@
+body {
+  background-color: #ACD
+}
+
+#content {
+  margin:auto;
+  margin-top: 0.75rem;
+  margin-bottom:0.75rem;
+  padding: 3rem;
+  padding-top:1rem;
+  width:75%;
+  background-color: #CEF
+}
+
+nav {
+  background-color: #07C;
+  position: relative;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  text-align: center;
+}
+nav ul li {
+  display:inline-block;
+}
+
+nav ul li a {
+  display:block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto";
+  
+}
+
+nav a:hover {
+  background-color: #05A
+}
+
+nav a#onpage {
+  text-decoration: underline;
+}
+
+th, td {
+  padding:1em;
+}
+td:first-child {
+  border-right: 0.25rem solid #07C;
+}
+
+tr {
+  border-top: 0.25rem solid #07C;
+}
+
+tr.no-top-border {
+  border-top:none;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto";
+}
+
+/* The font below was copied from https://fonts.googleapis.com/css2?family=Roboto */
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
