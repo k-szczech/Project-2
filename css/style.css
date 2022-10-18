@@ -12,6 +12,10 @@ body {
   background-color: #CEF
 }
 
+div#fixed-width {
+  width:1920px;
+}
+
 nav {
   background-color: #07C;
   position: relative;
