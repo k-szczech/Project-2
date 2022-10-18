@@ -16,6 +16,12 @@ div#fixed-width {
   width:1920px;
 }
 
+audio, img#album {
+  width:100%;
+}
+div#player {
+  text-align:center;
+}
 nav {
   background-color: #07C;
   position: relative;
