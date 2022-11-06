@@ -2,6 +2,31 @@ body {
   background-color: #ACD
 }
 
+h2 {
+	margin-top:75px;
+}
+
+div.table {
+	display:table;
+}
+
+div.table div {
+	display:table-row;
+}
+
+div.table div.top-border {
+	border-top: 0.25rem solid #07C;
+}
+
+div.table div div {
+	display:table-cell;
+	padding:1em;
+}
+
+div.table div div:first-child {
+  border-right: 0.25rem solid #07C;
+}
+
 #content {
   margin:auto;
   margin-top: 0.75rem;
@@ -12,15 +37,28 @@ body {
   background-color: #CEF
 }
 
-div#fixed-width {
-  width:1920px;
+img {
+	margin:25px;
+	width:400px;
 }
 
-audio, img#album {
-  width:100%;
+img.left {
+	float: left;
+}
+
+img.right {
+	float:right;
+}
+
+img#album, audio {
+	width:100%;
+	margin-left:25px;
+	margin-bottom:0px;
 }
 div#player {
   text-align:center;
+  width:20%;
+  float:right;
 }
 nav {
   background-color: #07C;
@@ -53,21 +91,6 @@ nav a:hover {
 
 nav a#onpage {
   text-decoration: underline;
-}
-
-th, td {
-  padding:1em;
-}
-td:first-child {
-  border-right: 0.25rem solid #07C;
-}
-
-tr {
-  border-top: 0.25rem solid #07C;
-}
-
-tr.no-top-border {
-  border-top:none;
 }
 
 h1, h2, h3 {
